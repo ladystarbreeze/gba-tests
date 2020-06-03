@@ -6,7 +6,7 @@ dma-test is a small Direct Memory Access test suite written in ARM assembly.
 In order to run dma-test, you need:
 
 * A **GBA** :) (real hardware or emulator)
-*  Hardware **(IRQ)** and software **(SWI)** interrupts
+* Hardware **(IRQ)** and software **(SWI)** interrupts
 * Direct Memory Access **(DMA)**
 * Memory mirroring (especially **EWRAM** and **IWRAM**) 
 
@@ -41,7 +41,7 @@ This error code indicates the inability to copy the **interrupt service routine*
 
 ***Error code 5: "Byte variable is not 2!"***
 
-You can pretty much ignore this error message. The DMA1 transfer routine is supposed to invoke the ISR twice, which doesn't happen on real hardware for whatever reason. Instead, you will get the error message "***Expected: 2   Got: 3***" on a real GBA and/or some emulators. If you happen to get this error messsage, you're good.
+You can pretty much ignore this error message. The DMA1 transfer routine is supposed to invoke the ISR twice, which doesn't happen on real hardware for whatever reason. Instead, you will get the error message "***Expected: 2   Got: 3***" on a real GBA and/or some emulators. If you happen to get this error message, you're good.
 
 ***Blue screen***
 
